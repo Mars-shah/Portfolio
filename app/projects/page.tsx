@@ -103,7 +103,7 @@ export default function ProjectsPage() {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
+                      className="inline-flex items-center gap-2 text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
                     >
                       Live Site <ArrowUpRight size={15} />
                     </a>
@@ -114,7 +114,7 @@ export default function ProjectsPage() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
+                      className="inline-flex items-center gap-2 text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
                     >
                       GitHub <ArrowUpRight size={15} />
                     </a>

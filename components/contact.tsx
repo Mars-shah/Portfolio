@@ -25,7 +25,7 @@ export default function Contact() {
           <div className="flex flex-col gap-4 md:items-end">
             <a
               href="mailto:shahmarut01@gmail.com"
-              className="text-lg transition hover:text-neutral-400"
+              className="inline-flex items-center gap-2 text-lg transition hover:text-neutral-400"
             >
               Email <ArrowUpRight size={15} />
             </a>
@@ -34,7 +34,7 @@ export default function Contact() {
               href="https://www.linkedin.com/in/marut-shah"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lg transition hover:text-neutral-400"
+              className="inline-flex items-center gap-2 text-lg transition hover:text-neutral-400"
             >
               LinkedIn <ArrowUpRight size={15} />
             </a>
@@ -43,7 +43,7 @@ export default function Contact() {
               href="https://github.com/Mars-shah"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lg transition hover:text-neutral-400"
+              className="inline-flex items-center gap-2 text-lg transition hover:text-neutral-400"
             >
               GitHub <ArrowUpRight size={15} />
             </a>
