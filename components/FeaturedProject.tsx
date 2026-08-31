@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 export default function FeaturedProject() {
   return (
@@ -36,31 +37,35 @@ export default function FeaturedProject() {
                 href="https://bio-track-amber.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-b border-white pb-1 text-sm font-medium"
+                className="inline-flex items-center gap-2 border-b border-white pb-1 text-sm font-medium"
               >
-                View Project →
+                View Project
+                <ArrowRight size={15} />
               </a>
 
               <a
                 href="https://github.com/Mars-shah/BioTrack"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-neutral-400 transition hover:text-white"
+                className="inline-flex items-center gap-2 text-sm text-neutral-400 transition hover:text-white"
               >
-                GitHub ↗
+                GitHub
+                <ArrowUpRight size={15} />
               </a>
             </div>
           </div>
-            <div className="relative aspect-[4/3] overflow-hidden border border-neutral-800 bg-neutral-900">
-              <Image
-                src="/images/WebsitePreviewDash-3.png"
-                alt="BioTrack dashboard"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 55vw"
-                priority
-              />
-            </div>
+
+          <div className="relative aspect-[4/3] overflow-hidden border border-neutral-800 bg-neutral-900">
+            <Image
+              src="/images/WebsitePreviewDash-3.png"
+              alt="BioTrack dashboard"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 55vw"
+              priority
+            />
+          </div>
+
         </div>
       </div>
     </section>

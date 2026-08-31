@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 export default function Contact() {
   return (
     <section
@@ -25,7 +27,7 @@ export default function Contact() {
               href="mailto:shahmarut01@gmail.com"
               className="text-lg transition hover:text-neutral-400"
             >
-              Email ↗
+              Email <ArrowUpRight size={15} />
             </a>
 
             <a
@@ -34,7 +36,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-lg transition hover:text-neutral-400"
             >
-              LinkedIn ↗
+              LinkedIn <ArrowUpRight size={15} />
             </a>
 
             <a
@@ -43,7 +45,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-lg transition hover:text-neutral-400"
             >
-              GitHub ↗
+              GitHub <ArrowUpRight size={15} />
             </a>
           </div>
         </div>

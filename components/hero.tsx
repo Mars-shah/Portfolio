@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 export default function Hero() {
   return (
     <section className="px-8 py-20 md:py-28">
@@ -22,7 +23,7 @@ export default function Hero() {
               href="/projects"
               className="bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-neutral-700 dark:bg-white dark:text-neutral-900"
             >
-              View Projects ↗
+              View Projects <ArrowUpRight size={15} />
             </a>
 
             <a

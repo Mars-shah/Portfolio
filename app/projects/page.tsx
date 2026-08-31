@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
@@ -70,7 +71,6 @@ export default function ProjectsPage() {
               key={project.title}
               className="grid gap-10 border-t border-neutral-200 py-12 dark:border-neutral-800 md:grid-cols-[0.9fr_1.1fr] md:items-center"
             >
-              {/* Project Info */}
               <div>
                 <p className="text-sm text-neutral-500">
                   {project.date}
@@ -105,7 +105,7 @@ export default function ProjectsPage() {
                       rel="noopener noreferrer"
                       className="text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
                     >
-                      Live Site ↗
+                      Live Site <ArrowUpRight size={15} />
                     </a>
                   )}
 
@@ -116,13 +116,12 @@ export default function ProjectsPage() {
                       rel="noopener noreferrer"
                       className="text-sm text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
                     >
-                      GitHub ↗
+                      GitHub <ArrowUpRight size={15} />
                     </a>
                   )}
                 </div>
               </div>
 
-              {/* Project Image */}
               <div className="relative aspect-[16/10] overflow-hidden border border-neutral-200 bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900">
                 <Image
                   src={project.image}
