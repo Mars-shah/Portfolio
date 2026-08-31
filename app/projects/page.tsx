@@ -28,7 +28,7 @@ const projects = [
     live: "https://marutshah.ca",
   },
 
-    {
+{
     date: "04 / 2025",
     title: "EZ-Step",
     description:
@@ -38,6 +38,18 @@ const projects = [
     github: null,
     caseStudy: null,
     live: "https://marut0176.wixsite.com/marutshah/copy-of-about",
+  },
+
+{
+    date: "10 / 2025",
+    title: "Old Portfolio",
+    description:
+      "My first website made using HTML, CSS, and JavaScript. It was a simple portfolio to showcase my projects and skills. I learned a lot about web development and designing since this project. I'm striving to be better with every project I do.",
+    stack: "HTML / CSS / JavaScript",
+    image: "/images/OldPortfolioPreview.png",
+    github: null,
+    caseStudy: null,
+    live: "https://mars-shah.github.io/marut-shah-website/",
   },
 
 ];
