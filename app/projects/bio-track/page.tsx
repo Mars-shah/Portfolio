@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { ArrowUpRight } from "lucide-react";
 
 const features = [
   "JWT-based authentication",
@@ -48,18 +49,18 @@ export default function BioTrackPage() {
               href="https://github.com/Mars-shah/BioTrack"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-b border-neutral-900 pb-1 font-medium dark:border-white"
+              className="inline-flex items-center gap-2 border-b border-neutral-900 pb-1 font-medium dark:border-white"
             >
-              GitHub ↗
+              GitHub <ArrowUpRight size={15} />
             </a>
 
             <a
               href="YOUR_LIVE_SITE_URL"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
+              className="inline-flex items-center gap-2text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
             >
-              Live Site ↗
+              Live Site <ArrowUpRight size={15} />
             </a>
           </div>
         </div>
