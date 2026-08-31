@@ -22,7 +22,7 @@ const projects = [
       "A responsive personal portfolio built to showcase my software projects, engineering experience, and technical work.",
     stack: "Next.js / TypeScript / Tailwind CSS",
     image: "/images/PortfolioPreview.png",
-    github: "YOUR_PORTFOLIO_GITHUB_URL",
+    github: "https://github.com/Mars-shah/Portfolio",
     caseStudy: null,
     live: "https://marutshah.ca",
   },
