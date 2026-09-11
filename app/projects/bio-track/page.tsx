@@ -55,7 +55,7 @@ export default function BioTrackPage() {
             </a>
 
             <a
-              href="YOUR_LIVE_SITE_URL"
+              href="https://bio-track-amber.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2text-neutral-500 transition hover:text-neutral-900 dark:hover:text-white"
