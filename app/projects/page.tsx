@@ -6,6 +6,18 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     date: "07 / 2026",
+    title: "Study With Focus",
+    description:
+      "A web application designed to help students improve their focus and productivity while studying, featuring a Pomodoro timer, task management, and progress tracking.",
+    stack: "React / FastAPI / PostgreSQL / Python",
+    image: "/images/StudyWithFocusWinterTheme.jpeg",
+    github: "https://github.com/Mars-shah/StudyWithFocus",
+    caseStudy: null,
+    live: "https://mars-shah.github.io/StudyWithFocus/",
+  },
+
+  {
+    date: "07 / 2026",
     title: "BioTrack",
     description:
       "A full-stack health tracking platform for recording, organizing, and visualizing personal health metrics.",
@@ -40,7 +52,19 @@ const projects = [
     live: "https://marut0176.wixsite.com/marutshah/copy-of-about",
   },
 
-{
+  {
+    date: "07 / 2026",
+    title: "Design Project #3",
+    description:
+      "An automated knife-cutting mechanism to assist individuals with dexterity issues in the kitchen, enhancing independence and safety during meal preparation.",
+    stack: "Autocad / Presenting",
+    image: "/images/handlessknife.png",
+    github: null,
+    caseStudy: null,
+    live: "https://marut0176.wixsite.com/marutshah/about-4",
+  },
+
+  {
     date: "10 / 2025",
     title: "Old Portfolio",
     description:

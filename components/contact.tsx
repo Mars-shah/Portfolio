@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="mt-10 grid gap-12 md:grid-cols-2 md:items-end">
           <div>
             <h2 className="max-w-3xl text-4xl font-semibold tracking-tight md:text-6xl">
-              Contact me!
+              Contact Me!
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-neutral-400">
