@@ -17,7 +17,7 @@ const skills = [
 export default function Skills() {
   return (
     <section className="bg-white px-8 py-24 text-neutral-900 dark:bg-neutral-950 dark:text-white md:py-32">
-      <div className="mx-auto max-w-6xl">
+      <div className="fade-up delay-4 mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-2">
           <div>
             <p className="text-sm uppercase tracking-[0.2em] text-neutral-500">

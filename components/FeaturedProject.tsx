@@ -7,11 +7,11 @@ export default function FeaturedProject() {
       <div className="mx-auto max-w-6xl">
 
         <div className="mb-12 flex items-center justify-between">
-          <p className="text-sm uppercase tracking-[0.2em] text-neutral-400">
+          <p className="fade-up delay-4 text-sm uppercase tracking-[0.2em] text-neutral-400">
             Featured Project
           </p>
 
-          <p className="text-sm text-neutral-500">
+          <p className="fade-up delay-4 text-sm text-neutral-500">
             07 / 2026
           </p>
         </div>
@@ -19,7 +19,7 @@ export default function FeaturedProject() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
 
           <div>
-            <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">
+            <h2 className="fade-up delay-4 text-4xl font-semibold tracking-tight md:text-6xl">
               BioTrack
             </h2>
 
@@ -37,7 +37,7 @@ export default function FeaturedProject() {
                 href="https://bio-track-amber.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border-b border-white pb-1 text-sm font-medium"
+                className="fade-up delay-4 inline-flex items-center gap-2 border-b border-white pb-1 text-sm font-medium"
               >
                 View Project
                 <ArrowRight size={15} />
@@ -55,7 +55,7 @@ export default function FeaturedProject() {
             </div>
           </div>
 
-          <div className="relative aspect-[4/3] overflow-hidden border border-neutral-800 bg-neutral-900">
+          <div className="fade-up delay-4 relative aspect-[4/3] overflow-hidden border border-neutral-800 bg-neutral-900">
             <Image
               src="/images/WebsitePreviewDash-3.png"
               alt="BioTrack dashboard"

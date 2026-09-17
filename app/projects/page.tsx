@@ -85,22 +85,22 @@ export default function ProjectsPage() {
 
       <section className="px-8 py-20 md:py-24">
         <div className="mx-auto max-w-6xl">
-          <p className="text-sm uppercase tracking-[0.2em] text-neutral-500">
+          <p className="fade-up delay-1text-sm uppercase tracking-[0.2em] text-neutral-500">
             Projects
           </p>
 
-          <h1 className="mt-6 max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
+          <h1 className="fade-up delay-2 mt-6 max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
             Things I&apos;ve built.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-neutral-600 dark:text-neutral-400">
+          <p className="fade-up delay-3 mt-8 max-w-2xl text-lg leading-8 text-neutral-600 dark:text-neutral-400">
             A collection of projects focused on software, engineering, and
             building useful products.
           </p>
         </div>
       </section>
 
-      <section className="px-8 pb-20 md:pb-24">
+      <section className="fade-up delay-4 px-8 pb-20 md:pb-24">
         <div className="mx-auto max-w-6xl">
           {projects.map((project) => (
             <article

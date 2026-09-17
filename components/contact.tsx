@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="bg-neutral-950 px-8 py-24 text-white md:py-32"
     >
-      <div className="mx-auto max-w-6xl">
+      <div className="fade-up delay-4 mx-auto max-w-6xl">
         <p className="text-sm uppercase tracking-[0.2em] text-neutral-500">
           Contact
         </p>

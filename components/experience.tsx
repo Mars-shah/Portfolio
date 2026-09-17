@@ -29,7 +29,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="border-t border-neutral-200 px-8 py-16 dark:border-neutral-800 md:py-20">
+    <section className="fade-up delay-4 border-t border-neutral-200 px-8 py-16 dark:border-neutral-800 md:py-20">
       <div className="mx-auto max-w-6xl">
         <p className="text-sm uppercase tracking-[0.2em] text-neutral-500">
           Experience
