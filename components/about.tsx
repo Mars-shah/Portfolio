@@ -12,11 +12,6 @@ export default function About() {
         </div>
 
         <div>
-          <h2 className="fade-up delay-3 text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
-            I like building things that are useful, clear, and actually solve a
-            problem.
-          </h2>
-
           <p className="fade-up delay-4 mt-8 max-w-2xl text-lg leading-8 text-neutral-600 dark:text-neutral-400">
             I&apos;m an engineering student interested in software, biomedical
             technology, and building products that connect the two. I enjoy
