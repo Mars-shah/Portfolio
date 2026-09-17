@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    date: "07 / 2026",
+    date: "08 / 2026",
     title: "Study With Focus",
     description:
       "A web application designed to help students improve their focus and productivity while studying, featuring a Pomodoro timer, task management, and progress tracking.",
@@ -53,7 +53,7 @@ const projects = [
   },
 
   {
-    date: "07 / 2026",
+    date: "02 / 2025",
     title: "Design Project #3",
     description:
       "An automated knife-cutting mechanism to assist individuals with dexterity issues in the kitchen, enhancing independence and safety during meal preparation.",
